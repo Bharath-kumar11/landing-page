@@ -1,0 +1,40 @@
+ *{
+    text-align:center;
+    display:block;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:green;
+    color:white;  
+}
+#container-box{
+    box-shadow:10px 10px black inset;
+}
+form{
+    font-size:20px;
+    font-family:inherit;
+    background-color:grey;
+    width:50%;
+    margin:50px auto;
+     padding:30px;
+    box-shadow:4px black;
+    color:black;
+
+}
+input{
+    width:30%;
+    height:35px;
+    margin-left:35%;
+    border-radius:25px;   
+}
+
+select{
+    width:30%;
+    height:35px;
+    margin-left:35%;
+}
+textarea{
+    width:30%;
+    height:70px;
+    margin-left:35%;
+}

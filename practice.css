@@ -1,0 +1,120 @@
+nav{
+    background-color:red;
+    color:white;
+    padding:20px;
+    
+}
+ul,h2,li{
+    display:inline;
+    
+}
+ul{
+    margin-left:70%;
+    font-size:18px;
+}
+li a{
+    text-decoration: none;
+    padding:10px;
+    color:white;
+}
+li a:hover{
+    color:white;
+    cursor:pointer;
+    padding:10px;
+    text-decoration: underline;
+    background-color:blueviolet;
+    border-radius:20px;
+
+}
+.starting{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+.heading{
+    font-size: 40px;
+    color:tomato;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sidepicture{
+    text-align: center;
+    display:inline;
+    margin-left:30%; 
+}
+.buttongeek #firstone{
+    margin-left:15%;
+    padding:15px;
+    background-color: tomato;
+    display:inline-block;
+    border-radius:15px;
+    color:white;
+}
+.buttongeek a{
+    text-decoration: none;
+    color:white;
+}
+.buttongeek a:hover{
+    color:white;
+    background-color:blueviolet;
+    padding:10px;
+    border-radius:15px;
+}
+.table{
+    font-family:inherit;
+    font-size:25px;
+    padding:20px;
+    display:flex;
+}
+.heading{
+    display:flex;
+}
+.box{
+    box-shadow:4px 4px 15px grey;
+    text-align:center;
+}
+.box h2{
+    margin-bottom:20px;
+}
+.signup{
+    font-family:inherit;
+    font-size:20px;
+    text-align:center;  
+}
+.signup input{
+ width:30%;
+ border:4px solid tomato;
+ padding:20px;
+ border-radius:25px;
+ background-color:white;
+}
+.signup input:hover{
+    background-color:aqua;
+}
+#thirdheading{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+button{
+    padding:10px;
+    font-family:inherit;
+    font-size:20px;
+    background-color:tomato;
+    color:white;
+    border:4px dotted yellow;
+    border-radius: 15px;
+}
+
+button:hover{
+    color: white;
+    padding:10px;
+    border-radius:20px;
+    background-color:blueviolet;
+    cursor:pointer;
+}
+
+.finaltext{
+    text-align:center;
+}
+
